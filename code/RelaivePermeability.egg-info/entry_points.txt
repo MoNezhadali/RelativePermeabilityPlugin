@@ -1,0 +1,3 @@
+[webviz_config_plugins]
+RelpermCappres = RelativePermeability.plugins:RelpermCappres
+

@@ -1,0 +1,12 @@
+# Ensembles used for history matching analysis
+hm_ensembles: &hm_ensembles
+  - iter-0
+  - iter-3
+
+
+- page: Relative permeability
+  content:
+    - RelativePermeability:
+        # ensambles: *hm_ensembles
+        path_to_relpermfile: /share/results/tables/relperm.csv # dette må være en path?
+        # scalfile: *scalfile
